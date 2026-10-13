@@ -1,0 +1,33 @@
+# ---- 实验素材：受版权保护，不入库 ----
+# 实验用PDF 来自《中国工业经济》已发表论文，仅供学习，
+# 请自行从原出处获取，不要提交到仓库。
+data/raw/*.pdf
+data/raw/*
+!data/raw/.gitkeep
+
+# ---- 提取产物（可由脚本重新生成）----
+data/processed/
+data/output/
+_mineru_out/
+
+# ---- 实验结果 ----
+results/*.xlsx
+results/comparison_table.json
+results/pipeline_metrics.json
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+.venv/
+venv/
+env/
+
+# ---- 编辑器 / 系统 ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*~
