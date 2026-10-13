@@ -1,0 +1,63 @@
+{
+  "experiment": "AI-Ready 数据生产线 · 第一阶段基线",
+  "source_pdf": "Li_Huang_2016_SOEs_Performance.pdf",
+  "source_note": "《我国国有企业的综合绩效影响因素研究》（中国工业经济 2016,11）",
+  "n_pages": 12,
+  "total_chars": 57362,
+  "total_lines": 587,
+  "formula_count": 63,
+  "table_count": 6,
+  "cross_page_table_candidates": [
+    {
+      "header": "I†w(cid:216)",
+      "pages": [
+        6,
+        7
+      ],
+      "method": "跨页压窄法（5列→1列）"
+    },
+    {
+      "header": "g¢(cid:228) Xc (cid:128)x” (cid:127){c",
+      "pages": [
+        6,
+        7
+      ],
+      "method": "跨页压窄法（5列→4列）"
+    },
+    {
+      "header": "(cid:152)P# (cid:152)P! (cid:152)P,",
+      "pages": [
+        7,
+        8
+      ],
+      "method": "跨页压窄法（4列→3列）"
+    },
+    {
+      "header": "三页连续表格（5/4/3 列）",
+      "pages": [
+        6,
+        7,
+        8
+      ],
+      "method": "多页延续法"
+    }
+  ],
+  "heading_candidate_count": 0,
+  "noise_pages": 3,
+  "cid_garbage_count": 4199,
+  "cid_garbage_ratio": 7.1533,
+  "clean_lines": 154,
+  "clean_line_ratio": 0.2624,
+  "requirements_check": {
+    "formula_ge_5": {
+      "required": 5,
+      "actual": 63,
+      "pass": true
+    },
+    "cross_page_table_ge_2": {
+      "required": 2,
+      "actual": 4,
+      "pass": true
+    }
+  }
+}
