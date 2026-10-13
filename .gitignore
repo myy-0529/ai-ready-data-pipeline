@@ -31,3 +31,7 @@ env/
 Thumbs.db
 *.swp
 *~
+
+# ---- 临时推送脚本（网络受限时用Contents API 兜底，不入库）----
+_push_via_api.py
+_push_via_contents.py
