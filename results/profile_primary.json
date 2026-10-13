@@ -1,0 +1,404 @@
+{
+  "file": "data\\raw\\Zheng_2025_PublicDataOpenness_NewFirmEntry.pdf",
+  "n_pages": 16,
+  "total_chars": 27440,
+  "total_equation_lines": 3,
+  "total_eq_numbers": [
+    "1",
+    "4",
+    "2",
+    "4",
+    "3",
+    "5",
+    "5",
+    "4",
+    "5",
+    "5",
+    "4"
+  ],
+  "total_tables": 2,
+  "header_footer_noise_pages": 16,
+  "heading_candidates": [
+    "2. 安徽农业大学 经济管理学院, 安徽 合肥 230036）",
+    "4 业进入的相关性可能存在伪回归问题，即",
+    "一、 引 言",
+    "七、 结论与启示",
+    "三、 研究设计",
+    "二、 制度背景与理论分析",
+    "五、 影响机制检验",
+    "六、 进一步分析",
+    "四、 实证结果与分析",
+    "（一）产权的影响",
+    "（一）制度背景",
+    "（一）基准回归结果",
+    "（一）样本选择与数据来源",
+    "（一）降低信息搜寻成本",
+    "（三）互联网普及率的影响",
+    "（三）稳健性检验",
+    "（二）实证模型构建",
+    "（二）平行趋势检验",
+    "（二）提高政府透明度",
+    "（二）理论分析",
+    "（二）行业的影响",
+    "（四）公共数据开放质量的影响"
+  ],
+  "pages": [
+    {
+      "page_no": 1,
+      "n_chars": 1256,
+      "n_lines": 34,
+      "equation_lines": 0,
+      "eq_numbers": [],
+      "n_tables_detected": 0,
+      "header_candidates": [
+        "第 47 卷 第 4 期 外国经济与管理 Vol. 47 No. 4",
+        "DOI: 10.16538/j.cnki.fem.20240517.401"
+      ],
+      "footer_candidates": [
+        "82"
+      ],
+      "page_number_found": true,
+      "math_density": 0.0,
+      "heading_candidates": [
+        "2. 安徽农业大学 经济管理学院, 安徽 合肥 230036）",
+        "一、 引 言"
+      ],
+      "cid_garbage_count": 0,
+      "cid_garbage_ratio": 0.0,
+      "lines_no_cid": 34
+    },
+    {
+      "page_no": 2,
+      "n_chars": 1823,
+      "n_lines": 43,
+      "equation_lines": 0,
+      "eq_numbers": [],
+      "n_tables_detected": 0,
+      "header_candidates": [],
+      "footer_candidates": [
+        "83"
+      ],
+      "page_number_found": true,
+      "math_density": 0.0,
+      "heading_candidates": [],
+      "cid_garbage_count": 0,
+      "cid_garbage_ratio": 0.0,
+      "lines_no_cid": 43
+    },
+    {
+      "page_no": 3,
+      "n_chars": 1558,
+      "n_lines": 41,
+      "equation_lines": 0,
+      "eq_numbers": [],
+      "n_tables_detected": 0,
+      "header_candidates": [],
+      "footer_candidates": [
+        "84"
+      ],
+      "page_number_found": true,
+      "math_density": 0.0,
+      "heading_candidates": [
+        "二、 制度背景与理论分析",
+        "（一）制度背景",
+        "（二）理论分析"
+      ],
+      "cid_garbage_count": 0,
+      "cid_garbage_ratio": 0.0,
+      "lines_no_cid": 41
+    },
+    {
+      "page_no": 4,
+      "n_chars": 1671,
+      "n_lines": 42,
+      "equation_lines": 0,
+      "eq_numbers": [],
+      "n_tables_detected": 0,
+      "header_candidates": [],
+      "footer_candidates": [
+        "85"
+      ],
+      "page_number_found": true,
+      "math_density": 0.0,
+      "heading_candidates": [],
+      "cid_garbage_count": 0,
+      "cid_garbage_ratio": 0.0,
+      "lines_no_cid": 42
+    },
+    {
+      "page_no": 5,
+      "n_chars": 1640,
+      "n_lines": 49,
+      "equation_lines": 1,
+      "eq_numbers": [
+        "1"
+      ],
+      "n_tables_detected": 0,
+      "header_candidates": [],
+      "footer_candidates": [
+        "86"
+      ],
+      "page_number_found": true,
+      "math_density": 0.0014,
+      "heading_candidates": [
+        "三、 研究设计",
+        "（一）样本选择与数据来源",
+        "（二）实证模型构建",
+        "四、 实证结果与分析",
+        "（一）基准回归结果"
+      ],
+      "cid_garbage_count": 5,
+      "cid_garbage_ratio": 0.102,
+      "lines_no_cid": 48
+    },
+    {
+      "page_no": 6,
+      "n_chars": 1860,
+      "n_lines": 50,
+      "equation_lines": 2,
+      "eq_numbers": [
+        "4",
+        "2"
+      ],
+      "n_tables_detected": 0,
+      "header_candidates": [],
+      "footer_candidates": [
+        "87"
+      ],
+      "page_number_found": true,
+      "math_density": 0.0057,
+      "heading_candidates": [
+        "（二）平行趋势检验"
+      ],
+      "cid_garbage_count": 6,
+      "cid_garbage_ratio": 0.12,
+      "lines_no_cid": 48
+    },
+    {
+      "page_no": 7,
+      "n_chars": 1470,
+      "n_lines": 49,
+      "equation_lines": 0,
+      "eq_numbers": [
+        "4"
+      ],
+      "n_tables_detected": 1,
+      "header_candidates": [],
+      "footer_candidates": [
+        "88"
+      ],
+      "page_number_found": true,
+      "math_density": 0.0039,
+      "heading_candidates": [
+        "（三）稳健性检验"
+      ],
+      "cid_garbage_count": 0,
+      "cid_garbage_ratio": 0.0,
+      "lines_no_cid": 49
+    },
+    {
+      "page_no": 8,
+      "n_chars": 1390,
+      "n_lines": 52,
+      "equation_lines": 0,
+      "eq_numbers": [
+        "3"
+      ],
+      "n_tables_detected": 1,
+      "header_candidates": [],
+      "footer_candidates": [
+        "0",
+        "89"
+      ],
+      "page_number_found": true,
+      "math_density": 0.0032,
+      "heading_candidates": [],
+      "cid_garbage_count": 0,
+      "cid_garbage_ratio": 0.0,
+      "lines_no_cid": 52
+    },
+    {
+      "page_no": 9,
+      "n_chars": 1383,
+      "n_lines": 52,
+      "equation_lines": 0,
+      "eq_numbers": [
+        "5",
+        "5"
+      ],
+      "n_tables_detected": 0,
+      "header_candidates": [],
+      "footer_candidates": [
+        "6",
+        "2",
+        "0",
+        "90"
+      ],
+      "page_number_found": true,
+      "math_density": 0.0014,
+      "heading_candidates": [
+        "4 业进入的相关性可能存在伪回归问题，即",
+        "五、 影响机制检验"
+      ],
+      "cid_garbage_count": 0,
+      "cid_garbage_ratio": 0.0,
+      "lines_no_cid": 52
+    },
+    {
+      "page_no": 10,
+      "n_chars": 1523,
+      "n_lines": 49,
+      "equation_lines": 0,
+      "eq_numbers": [
+        "4"
+      ],
+      "n_tables_detected": 0,
+      "header_candidates": [],
+      "footer_candidates": [
+        "91"
+      ],
+      "page_number_found": true,
+      "math_density": 0.0059,
+      "heading_candidates": [
+        "（一）降低信息搜寻成本",
+        "（二）提高政府透明度"
+      ],
+      "cid_garbage_count": 0,
+      "cid_garbage_ratio": 0.0,
+      "lines_no_cid": 49
+    },
+    {
+      "page_no": 11,
+      "n_chars": 1636,
+      "n_lines": 45,
+      "equation_lines": 0,
+      "eq_numbers": [
+        "5"
+      ],
+      "n_tables_detected": 0,
+      "header_candidates": [],
+      "footer_candidates": [
+        "92"
+      ],
+      "page_number_found": true,
+      "math_density": 0.003,
+      "heading_candidates": [
+        "六、 进一步分析",
+        "（一）产权的影响",
+        "（二）行业的影响"
+      ],
+      "cid_garbage_count": 0,
+      "cid_garbage_ratio": 0.0,
+      "lines_no_cid": 45
+    },
+    {
+      "page_no": 12,
+      "n_chars": 1582,
+      "n_lines": 44,
+      "equation_lines": 0,
+      "eq_numbers": [
+        "5"
+      ],
+      "n_tables_detected": 0,
+      "header_candidates": [],
+      "footer_candidates": [
+        "93"
+      ],
+      "page_number_found": true,
+      "math_density": 0.0016,
+      "heading_candidates": [
+        "（三）互联网普及率的影响",
+        "（四）公共数据开放质量的影响"
+      ],
+      "cid_garbage_count": 0,
+      "cid_garbage_ratio": 0.0,
+      "lines_no_cid": 44
+    },
+    {
+      "page_no": 13,
+      "n_chars": 1541,
+      "n_lines": 45,
+      "equation_lines": 0,
+      "eq_numbers": [
+        "4"
+      ],
+      "n_tables_detected": 0,
+      "header_candidates": [],
+      "footer_candidates": [
+        "94"
+      ],
+      "page_number_found": true,
+      "math_density": 0.0019,
+      "heading_candidates": [
+        "七、 结论与启示"
+      ],
+      "cid_garbage_count": 0,
+      "cid_garbage_ratio": 0.0,
+      "lines_no_cid": 45
+    },
+    {
+      "page_no": 14,
+      "n_chars": 2682,
+      "n_lines": 46,
+      "equation_lines": 0,
+      "eq_numbers": [],
+      "n_tables_detected": 0,
+      "header_candidates": [],
+      "footer_candidates": [
+        "95"
+      ],
+      "page_number_found": true,
+      "math_density": 0.0005,
+      "heading_candidates": [],
+      "cid_garbage_count": 0,
+      "cid_garbage_ratio": 0.0,
+      "lines_no_cid": 46
+    },
+    {
+      "page_no": 15,
+      "n_chars": 3413,
+      "n_lines": 41,
+      "equation_lines": 0,
+      "eq_numbers": [],
+      "n_tables_detected": 0,
+      "header_candidates": [],
+      "footer_candidates": [
+        "Issues, 2009, 43（4）: 997-1023.",
+        "economic value of public data openness has become an important issue. It is of great significance for",
+        "96"
+      ],
+      "page_number_found": true,
+      "math_density": 0.0036,
+      "heading_candidates": [],
+      "cid_garbage_count": 0,
+      "cid_garbage_ratio": 0.0,
+      "lines_no_cid": 41
+    },
+    {
+      "page_no": 16,
+      "n_chars": 1012,
+      "n_lines": 14,
+      "equation_lines": 0,
+      "eq_numbers": [],
+      "n_tables_detected": 0,
+      "header_candidates": [],
+      "footer_candidates": [
+        "97",
+        "（责任编辑：王雅丽）",
+        "唤醒“沉睡”的数据：公共数据开放与新企业进入"
+      ],
+      "page_number_found": true,
+      "math_density": 0.0247,
+      "heading_candidates": [],
+      "cid_garbage_count": 0,
+      "cid_garbage_ratio": 0.0,
+      "lines_no_cid": 14
+    }
+  ],
+  "cross_page_table_candidates": [],
+  "total_cid_garbage": 11,
+  "cid_garbage_ratio": 0.015804597701149427,
+  "clean_lines": 693,
+  "total_lines": 696,
+  "clean_line_ratio": 0.9956896551724138
+}
