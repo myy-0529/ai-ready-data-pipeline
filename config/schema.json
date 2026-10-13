@@ -1,0 +1,148 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AI-Ready Document Schema",
+  "description": "输出数据集的 JSONL 结构定义，用于 Gate-3 校验",
+  "type": "object",
+  "required": [
+    "doc_id",
+    "title",
+    "content",
+    "source_file",
+    "quality"
+  ],
+  "properties": {
+    "doc_id": {
+      "type": "string",
+      "description": "文档唯一标识（建议用源文件名 hash）",
+      "pattern": "^[a-zA-Z0-9_-]{4,64}$"
+    },
+    "title": {
+      "type": "string",
+      "description": "文档主标题",
+      "minLength": 1,
+      "maxLength": 500
+    },
+    "authors": {
+      "type": "array",
+      "description": "作者列表（脱敏后）",
+      "items": {
+        "type": "string"
+      }
+    },
+    "source_file": {
+      "type": "string",
+      "description": "源 PDF 文件名",
+      "pattern": "\\.pdf$"
+    },
+    "content": {
+      "type": "string",
+      "description": "清洗后的 Markdown 正文",
+      "minLength": 100
+    },
+    "metadata": {
+      "type": "object",
+      "description": "提取元信息",
+      "properties": {
+        "n_pages": {"type": "integer", "minimum": 1},
+        "n_chars": {"type": "integer", "minimum": 0},
+        "n_formula_source": {
+          "type": "integer",
+          "description": "PDF 预分析检出的公式数（分母）",
+          "minimum": 0
+        },
+        "n_formula_latex": {
+          "type": "integer",
+          "description": "实际还原为 LaTeX 的公式数（分子）",
+          "minimum": 0
+        },
+        "n_table_source": {
+          "type": "integer",
+          "description": "PDF 预分析检出的表格数",
+          "minimum": 0
+        },
+        "n_table_extracted": {
+          "type": "integer",
+          "description": "实际提取出的表格数",
+          "minimum": 0
+        },
+        "n_cross_page_tables": {
+          "type": "integer",
+          "description": "跨页表格数",
+          "minimum": 0
+        },
+        "cid_garbage_count": {
+          "type": "integer",
+          "description": "残留 CID 乱码数量",
+          "minimum": 0
+        }
+      }
+    },
+    "quality": {
+      "type": "object",
+      "description": "质量评分结果",
+      "required": ["score", "verdict"],
+      "properties": {
+        "score": {
+          "type": "integer",
+          "description": "综合质量分（0-100）",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "verdict": {
+          "type": "string",
+          "enum": ["accept", "reject"]
+        },
+        "dimension_scores": {
+          "type": "object",
+          "description": "四维度细分得分",
+          "properties": {
+            "completeness": {"type": "integer", "minimum": 0, "maximum": 25},
+            "coherence": {"type": "integer", "minimum": 0, "maximum": 25},
+            "information_density": {"type": "integer", "minimum": 0, "maximum": 25},
+            "readability": {"type": "integer", "minimum": 0, "maximum": 25}
+          }
+        },
+        "rule_passed": {
+          "type": "boolean",
+          "description": "规则层是否全部通过"
+        },
+        "reason": {
+          "type": "string",
+          "description": "判定理由",
+          "maxLength": 200
+        }
+      }
+    },
+    "pii": {
+      "type": "object",
+      "description": "隐私脱敏记录",
+      "properties": {
+        "hit": {"type": "boolean"},
+        "entities_found": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "masked_count": {"type": "integer", "minimum": 0}
+      }
+    },
+    "summary": {
+      "type": "string",
+      "description": "自动生成的摘要",
+      "maxLength": 2000
+    },
+    "processing": {
+      "type": "object",
+      "description": "处理链路记录（用于可追溯）",
+      "properties": {
+        "mineru_formula_enable": {"type": "boolean"},
+        "mineru_table_enable": {"type": "boolean"},
+        "gates_passed": {
+          "type": "array",
+          "items": {"type": "string"},
+          "description": "通过的闸门列表"
+        },
+        "duration_sec": {"type": "number", "minimum": 0}
+      }
+    }
+  }
+}
