@@ -1,0 +1,136 @@
+# DataFlow-Agent 流水线配置
+#
+# PDF → AI-Ready 数据生产流水线
+# 四个质量闸门（Gate-0~3）实现「能识别低质量数据并自动分流」
+
+pipeline:
+  name: pdf-to-ai-ready
+  version: "1.0"
+  description: >-
+    将粗糙 PDF 转化为可直接喂给大模型的高质量训练数据。
+    核心设计：四个质量闸门 + 条件分支，而非线性盲目生产。
+
+stages:
+  # ---------- 阶段 0：输入 ----------
+  - id: ingest
+    operator: PDFIngest
+    config:
+      input_dir: data/raw
+      pattern: "*.pdf"
+      recursive: false
+
+  # ---------- Gate-0：提取前预分析闸门 ----------
+  - id: pre_gate
+    operator: ProfileGate
+    config:
+      min_pages: 3# 少于3 页的 PDF 价值有限
+      max_cid_ratio: 0.40        # CID 乱码率上限（实测见 profile JSON）
+      min_chars_per_page: 200    # 每页最少字符数
+    on_reject: quarantine_invalid
+
+  # ---------- 提取：MinerU（对比实验变量在这里）----------
+  - id: extract
+    operator: MinerUExtract
+    config:
+      # 这两个开关就是第一阶段对比实验的自变量
+      formula_enable: true
+      table_enable: true
+      backend: pipeline
+      lang: ch
+    depends_on: pre_gate
+    on_error: quarantine_need_ocr
+
+  # ---------- Gate-1 + Gate-2：提取后质量闸门 ----------
+  - id: post_gate
+    operator: QualityJudge
+    config:
+      # 规则层：可量化的硬指标
+      rules:
+        min_latex_ratio: 0.60# LaTeX 块数 / 预分析公式数
+        min_table_recall: 1.00      # 表格召回率
+        max_residual_noise: 5# 残留页码/页眉数量上限
+      # 模型层：语义判断
+      llm_prompt: config/prompts/quality_judge.txt
+      threshold: 60                # 综合评分阈值
+    on_reject: quarantine_lowq
+
+  # ---------- 清洗 ----------
+  - id: clean
+    operator: NoiseClean
+    config:
+      drop_page_number: true
+      drop_header_footer: true
+      drop_repeated_blank: true
+      normalize_whitespace: true
+    depends_on: post_gate
+
+  # ---------- 隐私脱敏 ----------
+  - id: mask
+    operator: PIIMask
+    config:
+      entities:
+        - ID_CARD# 18位身份证
+        - PHONE# 手机号/座机
+        - EMAIL
+        - ADDRESS
+        - NAME# 中文姓名（需配合NER 模型）
+      strategy: replace            # 用占位符替换而非删除
+      placeholder: "[REDACTED_{type}]"
+      # 命中隐私不直接丢弃，转人工复核
+      on_hit: review
+
+  # ---------- 自动摘要 ----------
+  - id: summarize
+    operator: Summarize
+    config:
+      max_tokens: 300
+      style: academic
+    depends_on: clean
+
+  # ---------- 结构化输出 ----------
+  - id: format
+    operator: JsonFormat
+    config:
+      schema: config/schema.json
+      ensure_ascii: false
+
+  # ---------- Gate-3：序列化校验 ----------
+  - id: validate
+    operator: SchemaValidate
+    config:
+      strict: true
+      required_fields: [doc_id, title, content, source_file, quality]
+    on_reject: quarantine_schema
+
+# ---------- 输出 ----------
+outputs:
+  - id: dataset
+    path: data/output/dataset.jsonl
+    description: 通过全部闸门的正式数据集
+
+  - id: quarantine
+    paths:
+      - data/output/quarantine/invalid   # Gate-0 拦下
+      - data/output/quarantine/need_ocr   # 提取失败/乱码过高
+      - data/output/quarantine/low_quality# Gate-2 评分不足
+      - data/output/quarantine/schema_error   # Gate-3 校验失败
+
+  - id: review
+    paths:
+      - data/output/review/pii           # 命中隐私，待人工
+
+  - id: metrics
+    path: results/pipeline_metrics.json
+
+# ---------- 运行统计要输出的指标 ----------
+metrics:
+  - total_in
+  - accepted
+  - rejected_invalid
+  - rejected_need_ocr
+  - rejected_low_quality
+  - rejected_schema
+  - review_pii
+  - accept_rate
+  - avg_quality_score
+  - avg_cid_ratio
