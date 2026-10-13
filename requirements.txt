@@ -1,0 +1,14 @@
+# 核心依赖（轻量）
+pdfplumber>=0.11
+PyYAML>=6.0
+jsonschema>=4.0
+
+# —— 以下为质量判定、预分析、实验脚本所需 ——
+# 注意：本项目刻意不依赖 statsmodels，纯 NumPy 实现即可完成统计。
+numpy>=1.24
+pandas>=2.0
+
+# MinerU（体积较大，依赖 torch，单独安装）
+#   pip install -U "mineru[core]"
+# 若仅运行预分析与质量判定（pdf_profiler / quality_judge /
+# selftest_quality_judge），无需安装 MinerU。
