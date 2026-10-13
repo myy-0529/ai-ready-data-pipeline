@@ -1,0 +1,1263 @@
+{
+  "file": "data\\raw\\Masten_Poirier_2026_OmittedVariables.pdf",
+  "n_pages": 64,
+  "total_chars": 162657,
+  "total_equation_lines": 215,
+  "total_eq_numbers": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "5",
+    "7",
+    "8",
+    "W1",
+    "6",
+    "2",
+    "3",
+    "5",
+    "5",
+    "2",
+    "5",
+    "S1",
+    "7",
+    "S12",
+    "S2",
+    "S3",
+    "S4",
+    "S5",
+    "S6",
+    "S7",
+    "S7",
+    "S8",
+    "S8",
+    "S9",
+    "S10",
+    "S11",
+    "S12",
+    "S13",
+    "S14",
+    "S15",
+    "S16"
+  ],
+  "total_tables": 11,
+  "header_footer_noise_pages": 64,
+  "heading_candidates": [
+    "1 Introduction",
+    "1. The short regression of",
+    "2 Setup and Identification Analysis",
+    "2. The medium regression of",
+    "2.1 Regressions of Interest",
+    "2.2 Comparing Selection on Observables and on Unobservables",
+    "3. The long regression of",
+    "4 The Sensitivity of Bias Adjusted Estimands",
+    "5.2 Exogeneity of the Controls",
+    "5.4 Optimistic Bias Correction",
+    "7.1 Data",
+    "7.2 Results",
+    "8 Conclusion"
+  ],
+  "pages": [
+    {
+      "page_no": 1,
+      "n_chars": 2004,
+      "n_lines": 37,
+      "equation_lines": 0,
+      "eq_numbers": [],
+      "n_tables_detected": 0,
+      "header_candidates": [
+        "May 8th, 2026",
+        "omitted variables may be unimportant—a much smaller value reverses the sign of the"
+      ],
+      "footer_candidates": [
+        "1",
+        "6202",
+        "8"
+      ],
+      "page_number_found": true,
+      "math_density": 0.0089,
+      "heading_candidates": [
+        "1 Introduction"
+      ]
+    },
+    {
+      "page_no": 2,
+      "n_chars": 2946,
+      "n_lines": 36,
+      "equation_lines": 0,
+      "eq_numbers": [],
+      "n_tables_detected": 0,
+      "header_candidates": [
+        "is small. For example, see the textbook discussion on pages 74–78 of Angrist and Pischke",
+        "per with about 5500 Google Scholar citations as of December 2025. Finkelstein, Gentzkow,",
+        "and Williams (2021, AER, page 2706) describe it as providing “the now-standard methodol-"
+      ],
+      "footer_candidates": [
+        "2"
+      ],
+      "page_number_found": true,
+      "math_density": 0.0183,
+      "heading_candidates": []
+    },
+    {
+      "page_no": 3,
+      "n_chars": 3177,
+      "n_lines": 37,
+      "equation_lines": 0,
+      "eq_numbers": [],
+      "n_tables_detected": 0,
+      "header_candidates": [],
+      "footer_candidates": [
+        "breakdown point is large—suggesting that omitted variables may be unimportant—a much",
+        "equation (see equation (4) on page 9), which can have multiple roots. This explains the",
+        "3"
+      ],
+      "page_number_found": true,
+      "math_density": 0.0314,
+      "heading_candidates": []
+    },
+    {
+      "page_no": 4,
+      "n_chars": 2538,
+      "n_lines": 43,
+      "equation_lines": 1,
+      "eq_numbers": [],
+      "n_tables_detected": 2,
+      "header_candidates": [],
+      "footer_candidates": [
+        "5",
+        "0",
+        "5",
+        "0",
+        "4"
+      ],
+      "page_number_found": true,
+      "math_density": 0.0201,
+      "heading_candidates": []
+    },
+    {
+      "page_no": 5,
+      "n_chars": 2369,
+      "n_lines": 28,
+      "equation_lines": 0,
+      "eq_numbers": [],
+      "n_tables_detected": 1,
+      "header_candidates": [],
+      "footer_candidates": [
+        "To address the issues described in sections 3 and 4, we propose several simple modifi-",
+        "5"
+      ],
+      "page_number_found": true,
+      "math_density": 0.0286,
+      "heading_candidates": []
+    },
+    {
+      "page_no": 6,
+      "n_chars": 3081,
+      "n_lines": 41,
+      "equation_lines": 0,
+      "eq_numbers": [],
+      "n_tables_detected": 0,
+      "header_candidates": [],
+      "footer_candidates": [
+        "6"
+      ],
+      "page_number_found": true,
+      "math_density": 0.0263,
+      "heading_candidates": []
+    },
+    {
+      "page_no": 7,
+      "n_chars": 1678,
+      "n_lines": 43,
+      "equation_lines": 0,
+      "eq_numbers": [],
+      "n_tables_detected": 0,
+      "header_candidates": [],
+      "footer_candidates": [
+        "1",
+        "2",
+        "1",
+        "1",
+        "7"
+      ],
+      "page_number_found": true,
+      "math_density": 0.0138,
+      "heading_candidates": [
+        "2 Setup and Identification Analysis",
+        "2.1 Regressions of Interest",
+        "1. The short regression of",
+        "2. The medium regression of",
+        "3. The long regression of"
+      ]
+    },
+    {
+      "page_no": 8,
+      "n_chars": 1929,
+      "n_lines": 49,
+      "equation_lines": 4,
+      "eq_numbers": [
+        "1",
+        "2",
+        "3"
+      ],
+      "n_tables_detected": 0,
+      "header_candidates": [],
+      "footer_candidates": [
+        "Following the analysis of Altonji et al. (2005a, pages 175–176), Oster (2019b) recommends",
+        "8"
+      ],
+      "page_number_found": true,
+      "math_density": 0.0439,
+      "heading_candidates": [
+        "2.2 Comparing Selection on Observables and on Unobservables"
+      ]
+    },
+    {
+      "page_no": 9,
+      "n_chars": 2617,
+      "n_lines": 48,
+      "equation_lines": 1,
+      "eq_numbers": [
+        "4"
+      ],
+      "n_tables_detected": 0,
+      "header_candidates": [],
+      "footer_candidates": [
+        "0",
+        "0",
+        "0",
+        "2",
+        "9"
+      ],
+      "page_number_found": true,
+      "math_density": 0.0199,
+      "heading_candidates": []
+    },
+    {
+      "page_no": 10,
+      "n_chars": 2142,
+      "n_lines": 47,
+      "equation_lines": 5,
+      "eq_numbers": [
+        "5"
+      ],
+      "n_tables_detected": 0,
+      "header_candidates": [],
+      "footer_candidates": [
+        "1",
+        "10"
+      ],
+      "page_number_found": true,
+      "math_density": 0.0297,
+      "heading_candidates": []
+    },
+    {
+      "page_no": 11,
+      "n_chars": 2071,
+      "n_lines": 46,
+      "equation_lines": 3,
+      "eq_numbers": [],
+      "n_tables_detected": 0,
+      "header_candidates": [],
+      "footer_candidates": [
+        "vertical line on the plot. This vertical line may intersect the displayed curve up to three",
+        "11"
+      ],
+      "page_number_found": true,
+      "math_density": 0.035,
+      "heading_candidates": []
+    },
+    {
+      "page_no": 12,
+      "n_chars": 1976,
+      "n_lines": 46,
+      "equation_lines": 4,
+      "eq_numbers": [],
+      "n_tables_detected": 0,
+      "header_candidates": [],
+      "footer_candidates": [
+        "We call this the explain away breakdown point. Researchers may also be interested in",
+        "12"
+      ],
+      "page_number_found": true,
+      "math_density": 0.036,
+      "heading_candidates": []
+    },
+    {
+      "page_no": 13,
+      "n_chars": 2375,
+      "n_lines": 52,
+      "equation_lines": 0,
+      "eq_numbers": [
+        "6"
+      ],
+      "n_tables_detected": 0,
+      "header_candidates": [],
+      "footer_candidates": [
+        "near one we cannot point identify the sign of β . However, much larger values of δ may",
+        "1",
+        "2",
+        "13"
+      ],
+      "page_number_found": true,
+      "math_density": 0.0282,
+      "heading_candidates": []
+    },
+    {
+      "page_no": 14,
+      "n_chars": 2408,
+      "n_lines": 41,
+      "equation_lines": 2,
+      "eq_numbers": [],
+      "n_tables_detected": 0,
+      "header_candidates": [],
+      "footer_candidates": [
+        "1",
+        "2",
+        "are allowed to be arbitrarily mutli-collinear. Researchers may be interested in explicitly",
+        "14"
+      ],
+      "page_number_found": true,
+      "math_density": 0.0413,
+      "heading_candidates": []
+    },
+    {
+      "page_no": 15,
+      "n_chars": 2500,
+      "n_lines": 48,
+      "equation_lines": 4,
+      "eq_numbers": [],
+      "n_tables_detected": 0,
+      "header_candidates": [],
+      "footer_candidates": [
+        "assumption can be viewed as formalizing Oster’s (2019b) statement that researchers may be",
+        "“willing to assume that the bias is fairly small” (page 194). The value M should be chosen",
+        "1",
+        "15"
+      ],
+      "page_number_found": true,
+      "math_density": 0.0387,
+      "heading_candidates": []
+    },
+    {
+      "page_no": 16,
+      "n_chars": 2031,
+      "n_lines": 47,
+      "equation_lines": 8,
+      "eq_numbers": [
+        "5",
+        "7"
+      ],
+      "n_tables_detected": 0,
+      "header_candidates": [],
+      "footer_candidates": [
+        "1",
+        "We discuss this issue in more detail in Appendix E.2. We also discuss several other issues",
+        "16"
+      ],
+      "page_number_found": true,
+      "math_density": 0.0482,
+      "heading_candidates": [
+        "4 The Sensitivity of Bias Adjusted Estimands"
+      ]
+    },
+    {
+      "page_no": 17,
+      "n_chars": 2219,
+      "n_lines": 47,
+      "equation_lines": 2,
+      "eq_numbers": [
+        "8"
+      ],
+      "n_tables_detected": 0,
+      "header_candidates": [],
+      "footer_candidates": [
+        "1",
+        "17"
+      ],
+      "page_number_found": true,
+      "math_density": 0.0278,
+      "heading_candidates": []
+    },
+    {
+      "page_no": 18,
+      "n_chars": 2536,
+      "n_lines": 43,
+      "equation_lines": 1,
+      "eq_numbers": [],
+      "n_tables_detected": 0,
+      "header_candidates": [],
+      "footer_candidates": [
+        "1",
+        "its double ratio property. For example Oster (2019b, page 192) states that δ = 1 implies",
+        "2",
+        "18"
+      ],
+      "page_number_found": true,
+      "math_density": 0.0234,
+      "heading_candidates": [
+        "5.2 Exogeneity of the Controls"
+      ]
+    },
+    {
+      "page_no": 19,
+      "n_chars": 2774,
+      "n_lines": 68,
+      "equation_lines": 2,
+      "eq_numbers": [
+        "W1"
+      ],
+      "n_tables_detected": 0,
+      "header_candidates": [],
+      "footer_candidates": [
+        "2",
+        "1",
+        "2",
+        "19"
+      ],
+      "page_number_found": true,
+      "math_density": 0.0316,
+      "heading_candidates": []
+    },
+    {
+      "page_no": 20,
+      "n_chars": 2146,
+      "n_lines": 32,
+      "equation_lines": 0,
+      "eq_numbers": [],
+      "n_tables_detected": 0,
+      "header_candidates": [],
+      "footer_candidates": [
+        "Finally, De Luca, Magnus, and Peracchi (2019, page 220) note that, when there are multiple",
+        "dermine and help to destroy a democratic system” (page 482) by studying the rise of the",
+        "20"
+      ],
+      "page_number_found": true,
+      "math_density": 0.0207,
+      "heading_candidates": [
+        "5.4 Optimistic Bias Correction"
+      ]
+    },
+    {
+      "page_no": 21,
+      "n_chars": 2685,
+      "n_lines": 49,
+      "equation_lines": 0,
+      "eq_numbers": [
+        "6",
+        "2"
+      ],
+      "n_tables_detected": 0,
+      "header_candidates": [],
+      "footer_candidates": [
+        "0",
+        "1",
+        "21"
+      ],
+      "page_number_found": true,
+      "math_density": 0.0236,
+      "heading_candidates": []
+    },
+    {
+      "page_no": 22,
+      "n_chars": 2590,
+      "n_lines": 57,
+      "equation_lines": 2,
+      "eq_numbers": [],
+      "n_tables_detected": 0,
+      "header_candidates": [],
+      "footer_candidates": [
+        "2",
+        "2",
+        "2",
+        "22"
+      ],
+      "page_number_found": true,
+      "math_density": 0.0235,
+      "heading_candidates": []
+    },
+    {
+      "page_no": 23,
+      "n_chars": 2944,
+      "n_lines": 40,
+      "equation_lines": 1,
+      "eq_numbers": [],
+      "n_tables_detected": 0,
+      "header_candidates": [],
+      "footer_candidates": [
+        "mayclaimthatthevalue−0.0855isclosetozero, andperhapsisnotstatisticallysignificantly",
+        "different from zero, in which case one may argue that Oster’s Proposition 2 with δ = 1 still",
+        "Researchers may also want to summarize the information shown in plots like Figure 2",
+        "23"
+      ],
+      "page_number_found": true,
+      "math_density": 0.0263,
+      "heading_candidates": []
+    },
+    {
+      "page_no": 24,
+      "n_chars": 2381,
+      "n_lines": 40,
+      "equation_lines": 0,
+      "eq_numbers": [],
+      "n_tables_detected": 0,
+      "header_candidates": [],
+      "footer_candidates": [
+        "24"
+      ],
+      "page_number_found": true,
+      "math_density": 0.0216,
+      "heading_candidates": []
+    },
+    {
+      "page_no": 25,
+      "n_chars": 2791,
+      "n_lines": 36,
+      "equation_lines": 0,
+      "eq_numbers": [],
+      "n_tables_detected": 0,
+      "header_candidates": [],
+      "footer_candidates": [
+        "25"
+      ],
+      "page_number_found": true,
+      "math_density": 0.0123,
+      "heading_candidates": [
+        "7.1 Data",
+        "7.2 Results"
+      ]
+    },
+    {
+      "page_no": 26,
+      "n_chars": 2454,
+      "n_lines": 45,
+      "equation_lines": 0,
+      "eq_numbers": [],
+      "n_tables_detected": 0,
+      "header_candidates": [],
+      "footer_candidates": [
+        "26"
+      ],
+      "page_number_found": true,
+      "math_density": 0.0182,
+      "heading_candidates": []
+    },
+    {
+      "page_no": 27,
+      "n_chars": 2289,
+      "n_lines": 44,
+      "equation_lines": 0,
+      "eq_numbers": [],
+      "n_tables_detected": 0,
+      "header_candidates": [],
+      "footer_candidates": [
+        "AER, page 20) [Note: This computation uses R2 = 1]",
+        "27"
+      ],
+      "page_number_found": true,
+      "math_density": 0.0211,
+      "heading_candidates": []
+    },
+    {
+      "page_no": 28,
+      "n_chars": 2831,
+      "n_lines": 60,
+      "equation_lines": 5,
+      "eq_numbers": [],
+      "n_tables_detected": 0,
+      "header_candidates": [],
+      "footer_candidates": [
+        "2",
+        "2",
+        "28"
+      ],
+      "page_number_found": true,
+      "math_density": 0.0326,
+      "heading_candidates": [
+        "8 Conclusion"
+      ]
+    },
+    {
+      "page_no": 29,
+      "n_chars": 2147,
+      "n_lines": 35,
+      "equation_lines": 0,
+      "eq_numbers": [],
+      "n_tables_detected": 0,
+      "header_candidates": [],
+      "footer_candidates": [
+        "Working paper.",
+        "TSLS actually late?” Review of Economic Studies (forthcoming).",
+        "29"
+      ],
+      "page_number_found": true,
+      "math_density": 0.0058,
+      "heading_candidates": []
+    },
+    {
+      "page_no": 30,
+      "n_chars": 2278,
+      "n_lines": 35,
+      "equation_lines": 0,
+      "eq_numbers": [],
+      "n_tables_detected": 0,
+      "header_candidates": [],
+      "footer_candidates": [
+        "when the controls are endogenous,” arXiv preprint arXiv:2206.02303v5.",
+        "——— (2025b): “An axiomatic approach to comparing sensitivity parameters,” arXiv",
+        "preprint arXiv:2504.21106v2.",
+        "https://doi.org/10.3886/E120404V1.",
+        "Dataverse. https://doi.org/10.7910/DVN/7LLXOU."
+      ],
+      "page_number_found": true,
+      "math_density": 0.0114,
+      "heading_candidates": []
+    },
+    {
+      "page_no": 31,
+      "n_chars": 2468,
+      "n_lines": 36,
+      "equation_lines": 0,
+      "eq_numbers": [],
+      "n_tables_detected": 0,
+      "header_candidates": [],
+      "footer_candidates": [
+        "in 2018: http://brown.edu/research/projects/oster/.",
+        "31"
+      ],
+      "page_number_found": true,
+      "math_density": 0.0075,
+      "heading_candidates": []
+    },
+    {
+      "page_no": 32,
+      "n_chars": 705,
+      "n_lines": 10,
+      "equation_lines": 0,
+      "eq_numbers": [],
+      "n_tables_detected": 0,
+      "header_candidates": [],
+      "footer_candidates": [
+        "Nazi Party.” Distributed by Harvard Dataverse. https://doi.org/10.7910/DVN/EE6I7N.",
+        "https://doi.org/10.3886/E119862V1.",
+        "32"
+      ],
+      "page_number_found": true,
+      "math_density": 0.0,
+      "heading_candidates": []
+    },
+    {
+      "page_no": 33,
+      "n_chars": 3604,
+      "n_lines": 44,
+      "equation_lines": 0,
+      "eq_numbers": [],
+      "n_tables_detected": 0,
+      "header_candidates": [],
+      "footer_candidates": [
+        "May 8th, 2026",
+        "in Oster (2019), but only in working paper drafts, not in the final published version. We drop these three",
+        "found112papersthatuse2SLSinthesamefivejournals,overthe19-yearspanfromJanuary2000toOctober",
+        "suggest that they may have used one of the formal methods, but if so they did not report the findings.",
+        "1"
+      ],
+      "page_number_found": true,
+      "math_density": 0.0166,
+      "heading_candidates": []
+    },
+    {
+      "page_no": 34,
+      "n_chars": 3336,
+      "n_lines": 50,
+      "equation_lines": 0,
+      "eq_numbers": [],
+      "n_tables_detected": 0,
+      "header_candidates": [],
+      "footer_candidates": [
+        "and Klemp 2020, ECMA, page 747)",
+        "“to drive the results observed” (Valencia Caicedo 2019, QJE, online appendix page 6)",
+        "“to reverse the sign of the results” (Hoffman and Tadelis 2021, JPE, page 272)",
+        "2"
+      ],
+      "page_number_found": true,
+      "math_density": 0.0171,
+      "heading_candidates": []
+    },
+    {
+      "page_no": 35,
+      "n_chars": 2704,
+      "n_lines": 52,
+      "equation_lines": 0,
+      "eq_numbers": [
+        "3"
+      ],
+      "n_tables_detected": 0,
+      "header_candidates": [],
+      "footer_candidates": [
+        "DependentVariable: NaziPartyEntry,1925–January1933",
+        "1",
+        "1",
+        "0",
+        "0"
+      ],
+      "page_number_found": true,
+      "math_density": 0.004,
+      "heading_candidates": []
+    },
+    {
+      "page_no": 36,
+      "n_chars": 4443,
+      "n_lines": 62,
+      "equation_lines": 0,
+      "eq_numbers": [],
+      "n_tables_detected": 0,
+      "header_candidates": [],
+      "footer_candidates": [
+        "0",
+        "argumentisthatitmaymerelyreflecttheeffectofaspecifickindofsocialcapital—membershipinmilitary-",
+        "1",
+        "0",
+        "1"
+      ],
+      "page_number_found": true,
+      "math_density": 0.0201,
+      "heading_candidates": []
+    },
+    {
+      "page_no": 37,
+      "n_chars": 563,
+      "n_lines": 46,
+      "equation_lines": 0,
+      "eq_numbers": [],
+      "n_tables_detected": 8,
+      "header_candidates": [],
+      "footer_candidates": [
+        "2",
+        "6",
+        "0",
+        "9",
+        "0"
+      ],
+      "page_number_found": true,
+      "math_density": 0.0004,
+      "heading_candidates": []
+    },
+    {
+      "page_no": 38,
+      "n_chars": 3323,
+      "n_lines": 46,
+      "equation_lines": 1,
+      "eq_numbers": [
+        "5"
+      ],
+      "n_tables_detected": 0,
+      "header_candidates": [],
+      "footer_candidates": [
+        "appendix page 44)",
+        "variables, making it unlikely that unobserved factors are confounding the results.” (page 20)",
+        "6"
+      ],
+      "page_number_found": true,
+      "math_density": 0.0253,
+      "heading_candidates": []
+    },
+    {
+      "page_no": 39,
+      "n_chars": 3545,
+      "n_lines": 52,
+      "equation_lines": 1,
+      "eq_numbers": [
+        "5",
+        "2"
+      ],
+      "n_tables_detected": 0,
+      "header_candidates": [],
+      "footer_candidates": [
+        "1",
+        "In Table 2 on page 491, the authors report estimates of the explain away breakdown point. On that page,",
+        "1",
+        "7"
+      ],
+      "page_number_found": true,
+      "math_density": 0.0191,
+      "heading_candidates": []
+    },
+    {
+      "page_no": 40,
+      "n_chars": 3661,
+      "n_lines": 55,
+      "equation_lines": 1,
+      "eq_numbers": [],
+      "n_tables_detected": 0,
+      "header_candidates": [],
+      "footer_candidates": [
+        "2",
+        "8"
+      ],
+      "page_number_found": true,
+      "math_density": 0.0345,
+      "heading_candidates": []
+    },
+    {
+      "page_no": 41,
+      "n_chars": 4893,
+      "n_lines": 99,
+      "equation_lines": 4,
+      "eq_numbers": [],
+      "n_tables_detected": 0,
+      "header_candidates": [],
+      "footer_candidates": [
+        "substantial.” (pages 414–415)",
+        "This does not salvage the argument, however, because there is a second issue: In the fourth line of Panel B",
+        "2",
+        "2",
+        "to or larger than 1. However, because of the asymptote at δ = 1, these pbp values may not be informative"
+      ],
+      "page_number_found": true,
+      "math_density": 0.0279,
+      "heading_candidates": []
+    },
+    {
+      "page_no": 42,
+      "n_chars": 2387,
+      "n_lines": 61,
+      "equation_lines": 2,
+      "eq_numbers": [
+        "5"
+      ],
+      "n_tables_detected": 0,
+      "header_candidates": [],
+      "footer_candidates": [
+        "1",
+        "10"
+      ],
+      "page_number_found": true,
+      "math_density": 0.0312,
+      "heading_candidates": []
+    },
+    {
+      "page_no": 43,
+      "n_chars": 3887,
+      "n_lines": 80,
+      "equation_lines": 6,
+      "eq_numbers": [
+        "S1"
+      ],
+      "n_tables_detected": 0,
+      "header_candidates": [],
+      "footer_candidates": [
+        "1",
+        "equivalent to Oster’s Assumption 2 (page 192).3",
+        "11"
+      ],
+      "page_number_found": true,
+      "math_density": 0.047,
+      "heading_candidates": []
+    },
+    {
+      "page_no": 44,
+      "n_chars": 3230,
+      "n_lines": 69,
+      "equation_lines": 7,
+      "eq_numbers": [
+        "7",
+        "S12",
+        "S2"
+      ],
+      "n_tables_detected": 0,
+      "header_candidates": [],
+      "footer_candidates": [
+        "For vector W , Oster (2019) said A8 “is very unlikely to hold except in pathological cases” (page 192).",
+        "1",
+        "1",
+        "This alternative, her Assumption 3 on page 194, can be stated as follows.",
+        "12"
+      ],
+      "page_number_found": true,
+      "math_density": 0.0503,
+      "heading_candidates": []
+    },
+    {
+      "page_no": 45,
+      "n_chars": 2706,
+      "n_lines": 88,
+      "equation_lines": 11,
+      "eq_numbers": [
+        "S3",
+        "S4",
+        "S5",
+        "S6"
+      ],
+      "n_tables_detected": 0,
+      "header_candidates": [],
+      "footer_candidates": [
+        "1",
+        "2",
+        "1",
+        "1",
+        "2"
+      ],
+      "page_number_found": true,
+      "math_density": 0.0284,
+      "heading_candidates": []
+    },
+    {
+      "page_no": 46,
+      "n_chars": 2288,
+      "n_lines": 128,
+      "equation_lines": 12,
+      "eq_numbers": [
+        "S7",
+        "S7"
+      ],
+      "n_tables_detected": 0,
+      "header_candidates": [],
+      "footer_candidates": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ],
+      "page_number_found": true,
+      "math_density": 0.1102,
+      "heading_candidates": []
+    },
+    {
+      "page_no": 47,
+      "n_chars": 2088,
+      "n_lines": 81,
+      "equation_lines": 8,
+      "eq_numbers": [],
+      "n_tables_detected": 0,
+      "header_candidates": [],
+      "footer_candidates": [
+        "2",
+        "2",
+        "2",
+        "15"
+      ],
+      "page_number_found": true,
+      "math_density": 0.0753,
+      "heading_candidates": []
+    },
+    {
+      "page_no": 48,
+      "n_chars": 3834,
+      "n_lines": 62,
+      "equation_lines": 4,
+      "eq_numbers": [
+        "S8"
+      ],
+      "n_tables_detected": 0,
+      "header_candidates": [],
+      "footer_candidates": [
+        "earlier. However, on page 193 Oster (2019) states the following equation:",
+        "16"
+      ],
+      "page_number_found": true,
+      "math_density": 0.0336,
+      "heading_candidates": []
+    },
+    {
+      "page_no": 49,
+      "n_chars": 3676,
+      "n_lines": 58,
+      "equation_lines": 3,
+      "eq_numbers": [
+        "S8",
+        "S9"
+      ],
+      "n_tables_detected": 0,
+      "header_candidates": [],
+      "footer_candidates": [
+        "downward bias for our OLS estimates due to unobservables”. (online appendix page 44)",
+        "Based on the discussion on pages 194–196, Oster (2019) defines",
+        "2",
+        "“bounding set” on page 196, but elsewhere calls it the “identified set” (for example, see her Table 3). The",
+        "discussion on page 196 suggests that this interval should be interpreted as the identified set for β under"
+      ],
+      "page_number_found": true,
+      "math_density": 0.0332,
+      "heading_candidates": []
+    },
+    {
+      "page_no": 50,
+      "n_chars": 2002,
+      "n_lines": 82,
+      "equation_lines": 14,
+      "eq_numbers": [
+        "S10",
+        "S11",
+        "S12",
+        "S13"
+      ],
+      "n_tables_detected": 0,
+      "header_candidates": [],
+      "footer_candidates": [
+        "2",
+        "2",
+        "2",
+        "1",
+        "1"
+      ],
+      "page_number_found": true,
+      "math_density": 0.0416,
+      "heading_candidates": []
+    },
+    {
+      "page_no": 51,
+      "n_chars": 2290,
+      "n_lines": 61,
+      "equation_lines": 14,
+      "eq_numbers": [],
+      "n_tables_detected": 0,
+      "header_candidates": [],
+      "footer_candidates": [
+        "19"
+      ],
+      "page_number_found": true,
+      "math_density": 0.0366,
+      "heading_candidates": []
+    },
+    {
+      "page_no": 52,
+      "n_chars": 2449,
+      "n_lines": 68,
+      "equation_lines": 14,
+      "eq_numbers": [
+        "S14"
+      ],
+      "n_tables_detected": 0,
+      "header_candidates": [],
+      "footer_candidates": [
+        "1",
+        "20"
+      ],
+      "page_number_found": true,
+      "math_density": 0.0308,
+      "heading_candidates": []
+    },
+    {
+      "page_no": 53,
+      "n_chars": 1993,
+      "n_lines": 96,
+      "equation_lines": 3,
+      "eq_numbers": [
+        "S15"
+      ],
+      "n_tables_detected": 0,
+      "header_candidates": [],
+      "footer_candidates": [
+        "1",
+        "2",
+        "1",
+        "1",
+        "2"
+      ],
+      "page_number_found": true,
+      "math_density": 0.0088,
+      "heading_candidates": []
+    },
+    {
+      "page_no": 54,
+      "n_chars": 2001,
+      "n_lines": 242,
+      "equation_lines": 1,
+      "eq_numbers": [],
+      "n_tables_detected": 0,
+      "header_candidates": [],
+      "footer_candidates": [
+        "1",
+        "2",
+        "2",
+        "1",
+        "1"
+      ],
+      "page_number_found": true,
+      "math_density": 0.0031,
+      "heading_candidates": []
+    },
+    {
+      "page_no": 55,
+      "n_chars": 2586,
+      "n_lines": 85,
+      "equation_lines": 8,
+      "eq_numbers": [],
+      "n_tables_detected": 0,
+      "header_candidates": [],
+      "footer_candidates": [
+        "2",
+        "0",
+        "1",
+        "1",
+        "2"
+      ],
+      "page_number_found": true,
+      "math_density": 0.0331,
+      "heading_candidates": []
+    },
+    {
+      "page_no": 56,
+      "n_chars": 1615,
+      "n_lines": 71,
+      "equation_lines": 2,
+      "eq_numbers": [],
+      "n_tables_detected": 0,
+      "header_candidates": [],
+      "footer_candidates": [
+        "1",
+        "1",
+        "2",
+        "2",
+        "2"
+      ],
+      "page_number_found": true,
+      "math_density": 0.0122,
+      "heading_candidates": []
+    },
+    {
+      "page_no": 57,
+      "n_chars": 2430,
+      "n_lines": 67,
+      "equation_lines": 10,
+      "eq_numbers": [],
+      "n_tables_detected": 0,
+      "header_candidates": [],
+      "footer_candidates": [
+        "25"
+      ],
+      "page_number_found": true,
+      "math_density": 0.0377,
+      "heading_candidates": []
+    },
+    {
+      "page_no": 58,
+      "n_chars": 1920,
+      "n_lines": 87,
+      "equation_lines": 15,
+      "eq_numbers": [],
+      "n_tables_detected": 0,
+      "header_candidates": [],
+      "footer_candidates": [
+        "1",
+        "1",
+        "1",
+        "2",
+        "26"
+      ],
+      "page_number_found": true,
+      "math_density": 0.039,
+      "heading_candidates": []
+    },
+    {
+      "page_no": 59,
+      "n_chars": 2212,
+      "n_lines": 71,
+      "equation_lines": 13,
+      "eq_numbers": [],
+      "n_tables_detected": 0,
+      "header_candidates": [],
+      "footer_candidates": [
+        "2",
+        "27"
+      ],
+      "page_number_found": true,
+      "math_density": 0.0421,
+      "heading_candidates": []
+    },
+    {
+      "page_no": 60,
+      "n_chars": 2088,
+      "n_lines": 95,
+      "equation_lines": 5,
+      "eq_numbers": [
+        "S16"
+      ],
+      "n_tables_detected": 0,
+      "header_candidates": [],
+      "footer_candidates": [
+        "2",
+        "2",
+        "1",
+        "1",
+        "1"
+      ],
+      "page_number_found": true,
+      "math_density": 0.0195,
+      "heading_candidates": []
+    },
+    {
+      "page_no": 61,
+      "n_chars": 1946,
+      "n_lines": 84,
+      "equation_lines": 7,
+      "eq_numbers": [],
+      "n_tables_detected": 0,
+      "header_candidates": [],
+      "footer_candidates": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "page_number_found": true,
+      "math_density": 0.0425,
+      "heading_candidates": []
+    },
+    {
+      "page_no": 62,
+      "n_chars": 2325,
+      "n_lines": 41,
+      "equation_lines": 4,
+      "eq_numbers": [],
+      "n_tables_detected": 0,
+      "header_candidates": [],
+      "footer_candidates": [
+        "30"
+      ],
+      "page_number_found": true,
+      "math_density": 0.0308,
+      "heading_candidates": []
+    },
+    {
+      "page_no": 63,
+      "n_chars": 2836,
+      "n_lines": 36,
+      "equation_lines": 0,
+      "eq_numbers": [],
+      "n_tables_detected": 0,
+      "header_candidates": [],
+      "footer_candidates": [
+        "31"
+      ],
+      "page_number_found": true,
+      "math_density": 0.0043,
+      "heading_candidates": []
+    },
+    {
+      "page_no": 64,
+      "n_chars": 1716,
+      "n_lines": 26,
+      "equation_lines": 0,
+      "eq_numbers": [],
+      "n_tables_detected": 0,
+      "header_candidates": [],
+      "footer_candidates": [
+        "Review of Economic Studies (forthcoming).",
+        "are endogenous,” arXiv preprint arXiv:2206.02303v5.",
+        "——— (2022): “The effect of omitted variables on the sign of regression coefficients,” arXiv preprint",
+        "arXiv:2208.00552v1.",
+        "32"
+      ],
+      "page_number_found": true,
+      "math_density": 0.0092,
+      "heading_candidates": []
+    }
+  ],
+  "cross_page_table_candidates": []
+}
